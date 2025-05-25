@@ -1,0 +1,134 @@
+/* Wrapper for dark mode compatibility */
+.appWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  color: #1f2937;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode (optional enhancement) */
+@media (prefers-color-scheme: dark) {
+  .appWrapper {
+    background-color: #111827;
+    color: #f3f4f6;
+  }
+
+  .navbar {
+    background-color: #1f2937;
+  }
+
+  .bookCard {
+    background-color: #1e293b;
+    border-color: #374151;
+  }
+
+  .footer {
+    background-color: #1f2937;
+    color: #d1d5db;
+  }
+
+  .navLink {
+    color: #dbeafe;
+  }
+
+  .bookTitle {
+    color: #a5b4fc;
+  }
+}
+
+.navbar {
+  background-color: #4f46e5;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navLink {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.navLink:hover {
+  opacity: 0.8;
+}
+
+.container {
+  flex: 1;
+  padding: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #1e3a8a;
+}
+
+.message {
+  text-align: center;
+  color: #6b7280;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+.bookList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.bookCard {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem;
+  background-color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.bookCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.bookTitle {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #1e40af;
+  text-decoration: none;
+}
+
+.bookTitle:hover {
+  text-decoration: underline;
+}
+
+.author {
+  margin-top: 0.5rem;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.footer {
+  background-color: #f3f4f6;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+}

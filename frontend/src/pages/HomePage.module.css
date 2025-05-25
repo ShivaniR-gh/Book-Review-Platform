@@ -1,0 +1,54 @@
+.container {
+  padding: 0rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d3d8de;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #1e3a8a; /* Dark Blue */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.message {
+  text-align: center;
+  color: #6b7280; /* Gray */
+  font-size: 1.1rem;
+}
+
+.bookList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.bookCard {
+  background-color: #e0f2fe; /* Light Blue */
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.bookCard:hover {
+  transform: translateY(-5px);
+}
+
+.bookTitle {
+  font-size: 1.3rem;
+  color: #0f172a; /* Slate Gray */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bookTitle:hover {
+  color: #2563eb; /* Bright Blue */
+}
+
+.author {
+  color: #475569;
+  margin-top: 0.5rem;
+}
