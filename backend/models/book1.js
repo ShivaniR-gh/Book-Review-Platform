@@ -6,6 +6,7 @@ const bookSchema = new mongoose.Schema({
   genre: String,
   description: String,
   coverImage: String,
+  createdAt: { type: Date, default: Date.now }
 });
 
 module.exports = mongoose.model('Book', bookSchema);

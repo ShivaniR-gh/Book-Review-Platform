@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const Book = require('../models/Book');
 
-// GET /api/books
 router.get('/', async (req, res) => {
   try {
     const books = await Book.find();
