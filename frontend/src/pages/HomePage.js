@@ -1,26 +1,31 @@
-// HomePage.js with Navbar, Footer, and Dark Mode
+// HomePage.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import styles from './HomePage.module.css';
 
-
 function HomePage() {
   const [books, setBooks] = useState([]);
+  const [darkMode, setDarkMode] = useState(false); // Optional: Dark Mode toggle
 
   useEffect(() => {
-    axios.get('http://localhost:5000/books')
+    axios.get('http://localhost:5000/api/books')
       .then(response => setBooks(response.data))
-      .catch(error => console.error(error));
+      .catch(error => console.error('Error fetching books:', error));
   }, []);
 
+  const toggleDarkMode = () => setDarkMode(!darkMode);
+
   return (
-    <div className={styles.appWrapper}>
+    <div className={`${styles.appWrapper} ${darkMode ? styles.dark : ''}`}>
       <nav className={styles.navbar}>
         <div className={styles.logo}>📚 BookHub</div>
-        <div>
+        <div className={styles.navLinks}>
           <Link className={styles.navLink} to="/">Home</Link>
           <Link className={styles.navLink} to="/login">Login</Link>
+          <button onClick={toggleDarkMode} className={styles.toggleButton}>
+            {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+          </button>
         </div>
       </nav>
 

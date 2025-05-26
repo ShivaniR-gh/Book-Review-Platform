@@ -1,54 +1,99 @@
+.appWrapper {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f7f7;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark {
+  background: #1e1e1e;
+  color: #f1f1f1;
+}
+
+.navbar {
+  background: #6200ea;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.toggleButton {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
 .container {
-  padding: 0rem;
-  max-width: 1000px;
-  margin: 0 auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #d3d8de;
+  padding: 2rem;
+  flex-grow: 1;
 }
 
 .title {
-  font-size: 2.5rem;
-  color: #1e3a8a; /* Dark Blue */
-  text-align: center;
-  margin-bottom: 2rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .message {
-  text-align: center;
-  color: #6b7280; /* Gray */
-  font-size: 1.1rem;
+  color: #888;
 }
 
 .bookList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
 }
 
 .bookCard {
-  background-color: #e0f2fe; /* Light Blue */
+  background: white;
+  border: 1px solid #ddd;
   padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
-  transition: transform 0.2s ease;
+  border-radius: 8px;
+  text-align: center;
 }
 
-.bookCard:hover {
-  transform: translateY(-5px);
+.dark .bookCard {
+  background: #2c2c2c;
+  border-color: #444;
 }
 
 .bookTitle {
-  font-size: 1.3rem;
-  color: #0f172a; /* Slate Gray */
-  text-decoration: none;
+  font-size: 1.1rem;
   font-weight: bold;
-}
-
-.bookTitle:hover {
-  color: #2563eb; /* Bright Blue */
+  color: #6200ea;
+  text-decoration: none;
 }
 
 .author {
-  color: #475569;
-  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footer {
+  background: #eee;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
 }

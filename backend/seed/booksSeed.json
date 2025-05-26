@@ -1,0 +1,142 @@
+[
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Fiction",
+    "description": "A novel about the serious issues of rape and racial inequality.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8225261-L.jpg"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "description": "A novel about a dystopian future under totalitarian rule.",
+    "coverImage": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "description": "A story about the American dream and the roaring twenties.",
+    "coverImage": "https://covers.openlibrary.org/b/id/7352160-L.jpg"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "description": "A classic romance novel set in 19th-century England.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8091016-L.jpg"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Fiction",
+    "description": "A story about teenage rebellion and angst.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231856-L.jpg"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "description": "A fantasy novel about a hobbit's adventurous journey.",
+    "coverImage": "https://covers.openlibrary.org/b/id/6979861-L.jpg"
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "genre": "Science Fiction",
+    "description": "A dystopian novel about book burning and censorship.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8225636-L.jpg"
+  },
+  {
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "genre": "Adventure",
+    "description": "The saga of Captain Ahab and the white whale.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8100916-L.jpg"
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "genre": "Historical",
+    "description": "A novel about the French invasion of Russia.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231851-L.jpg"
+  },
+  {
+    "title": "The Odyssey",
+    "author": "Homer",
+    "genre": "Epic",
+    "description": "An epic poem about Odysseus’ journey home.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231843-L.jpg"
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Philosophical",
+    "description": "A psychological novel about guilt and redemption.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231849-L.jpg"
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Philosophical",
+    "description": "A deep dive into faith, doubt, and morality.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231847-L.jpg"
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "genre": "Romance",
+    "description": "A novel about a governess's life and love.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231853-L.jpg"
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "genre": "Dystopian",
+    "description": "A vision of a future society controlled by technology and conditioning.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231857-L.jpg"
+  },
+  {
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "genre": "Gothic",
+    "description": "A dark tale of passion and revenge.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231858-L.jpg"
+  },
+  {
+    "title": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "genre": "Epic Poetry",
+    "description": "An epic poem describing the journey through Hell, Purgatory, and Paradise.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231859-L.jpg"
+  },
+  {
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "genre": "Classic",
+    "description": "A tragic story of love and infidelity.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231860-L.jpg"
+  },
+  {
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "genre": "Historical",
+    "description": "A sweeping story of justice, love, and redemption.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231861-L.jpg"
+  },
+  {
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "genre": "Adventure",
+    "description": "A tale of betrayal and revenge.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231862-L.jpg"
+  },
+  {
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "genre": "Classic",
+    "description": "A comedic tale of a man who becomes a knight-errant.",
+    "coverImage": "https://covers.openlibrary.org/b/id/8231863-L.jpg"
+  }
+]
